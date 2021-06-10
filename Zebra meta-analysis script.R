@@ -44,4 +44,3 @@ forest.meta(Pathogenname_subgroup, sortvar = TE, overall = TRUE,
 funnel(Pathogenname_meta, xlab = "Freeman-Tukey Transformed Proportion", 
        studlab = TRUE)
 eggers.test(x = Pathogenname_meta)
-pcurve(Pathogenname_meta)
