@@ -1,3 +1,8 @@
+####################################
+# Carlo Andrea Cossu               #
+# http://github.com/CarlVet        #
+####################################
+
 #Load R packages for meta-analysis
 library(dmetar)
 library(metafor)
