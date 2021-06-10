@@ -8,8 +8,7 @@ library(readxl)
 Pathogenname <- c("AHSV","AKAV","Anaplasma","B_anthracis","B.caballi","BPV1",
                   "BPV2","CCHFV","Cryptosporidium","EAV","EEV","EHV1","EHV2",
                   "EHV4","EHV9","N.caninum","Rickettsia","T.equi","WSLV")
-Pathogenname_dat <- read_excel("~/Dropbox/Zebra systematic review/Mata-analysis 
-                               data/Meta-analysis R studio 21-05-15.xlsx", 
+Pathogenname_dat <- read_excel("your data", 
                                +     sheet = Pathogenname)
 
 #Function for meta-analysis
