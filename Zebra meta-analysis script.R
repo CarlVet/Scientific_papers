@@ -33,4 +33,5 @@ forest.meta(Pathogenname_test_meta, sortvar = w.random, overall = TRUE,
 #Functions to evaluate publication bias
 funnel(Pathogenname_test_meta, xlab = "Freeman-Tukey Transformed Proportion", 
        studlab = TRUE)
-eggers.test(x = Pathogenname_meta)
+eggers.test(x = Pathogenname_test_meta)
+trimfill.meta(Pathogenname_test_meta)
