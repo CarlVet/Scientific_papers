@@ -10,7 +10,7 @@ library(meta)
 
 #Load data from Mendeley Data
 library(readxl)
-"Pathogenname_test"_dat <- read_excel("Mendeley data", 
+"Pathogenname_test"_dat <- read_excel("https://data.mendeley.com/datasets/dgxx92xjyf/4", 
                                +     sheet = "Pathogenname_test")
 
 #Function for meta-analysis
